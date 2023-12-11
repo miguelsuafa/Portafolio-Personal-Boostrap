@@ -1,413 +1,207 @@
-/*link texto fuente */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-
-.colortext {
-  font-family: 'Poppins', sans-serif;
-  color: rgb(255, 255, 255);
-  font-weight: 900;
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
-.imagenseccion1{
-  width: 400px;
-  height: auto;
-  padding-top:  30%;
-}
-.textoseccion1{
-  padding-top: 200px;
-}
+/*Escritorio*/
+@media (min-width: 992px) {
+    .texto {
+        margin-top: 72%;
+    }
 
-/*seccion2*/
+    .perfil {
+        width: 350px;
+        padding-top: 60%;
+    }
 
-.texto-aboutme{
-  text-shadow: 2px;
-}
-.imagen2{   
-    width: 420px;
-    border-radius: 30px;
-}
+    .aboutp {
+        width: 410px;
+        height: 480px;
+        border-radius: 30px;
+        transform: translateX(150px);
+    }
 
-.targets{
-  padding-top: 100px;
-}
+    .tarjetaexp {
+        justify-content: end;
+        align-items: end;
 
-.imagenseccion2{
-  padding-top: 100px;
-}
+    }
 
-.card1{
-  padding-top: 30px;
-  border-radius: 30px; 
-  border: solid 3px black; 
-  height: 200px;
-}
+    .tarjetas {
+        width: 20.7rem;
+        border-radius: 2em;
+        height: auto;
+    }
 
-.card2{
-  padding-top: 30px;
-  border-radius: 30px; 
-  border: solid 3px black; 
-  height: 200px;
-}
+    .titulo {
+        padding-top: 12%;
+    }
 
-.texto-sobremi{
-  text-shadow: 2px;
-}
+    .titulo2 {
+        padding-top: 30%;
+    }
 
-/*seccion 3 */
+    .titulo3 {
+        padding-top: 25%;
+    }
 
-.title-experience{
-  text-shadow: 2px;
-}
+    .tarjetapro {
+        width: 20rem;
+    }
 
-.card3{
-  padding-top: 40px;
-  border-radius: 30px;
-  border: solid 3px black;
-  width: 600px;
-  height: 400px;
-}
+    .contactota {
+        width: 28rem;
+    }
 
+    .centradot {
+        display: flex;
+        justify-content: end;
+    }
 
-.card3 h1{
-  font-style: italic;
-  padding-bottom: 30px;
-}
-
-.card3 td{
-  font-size: 30px;
-  padding: 60px;
-}
-
-.card4{
-  padding-top: 40px;
-  border-radius: 30px;
-  border: solid 3px black;
-  width: 600px;
-  height: 400px;
-}
-
-.card4 h1{
-  font-style: italic;
-  padding-bottom: 30px;
-}
-
-.card4 td{
-  font-size: 30px;
-}
-
-.card4 td img{
-  width: 30px;
-}
-
-/*seccion 4 */
-
-.title-projects{
-  padding-top: 110px;
-
-}
-
-.cardimg{
-  width: 30px;
-  height: 30px;
-}
-
-/* Estilos personalizados si es necesario */
-.tarjeta {
-  background-color: #ffffff;
-  border: 3px solid #000000;
-  margin: 10px;
-  padding: 30px;
-  box-sizing: border-box;
-  text-align: center;
-  border-radius: 30px;
-}
-
-.tarjeta img {
-  max-width: 100%;
-  height: 300px;
-  margin-bottom: 20px;
-  border-radius: 30px;
-  border: 3px solid #000000;
-}
-.tarjeta button{
-  border-radius: 30px;
-  border: 3px solid #000000;
-}
-
-.row1, .justify-content-center, .text-center{
-  width: 50%;
+    .linquedin {
+        display: flex;
+        justify-content: end;
+        margin-left: 10px;
+    }
 }
 
 
+@media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait) {
+    body{background: rgb(241, 243, 241);}
+    
+    .texto {
+        margin-top: 35%;
+    }
 
-.textostyle{
-    padding-top:  30%;
+    .bo2 {
+        margin-top: 10px;
+    }
+
+    .perfil {
+        width: 345px;
+        padding-top: 60%;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .aboutp {
+        border-radius: 1em;
+    }
 }
 
+/*Teléfonos orientación vertical*/
+@media (max-width: 575.98px) and (orientation:portrait) {
 
+    .perfil {
+        width: 345px;
+        padding-top: 60%;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
+    .contactota {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
+    .texto {
+        margin-top: 18%;
+    }
 
-.imginicio{
-    width: 30px;
-    height: 30px;
+    .aboutp {
+        border-radius: 1em;
+        margin-bottom: 5%;
+    }
+
+    #tarjeticapro {
+        margin-bottom: 35px;
+    }
+
+    .tarjetas {
+        max-width: 100%; 
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2em;
+    }
+
+    .titulo {
+        padding-top: 30%;
+    }
+
+    .titulo2 {
+        padding-top: 40%;
+    } 
+
+    .titulo3 {
+        padding-top: 35%;
+    }
+    
+    .tarjetaexpe {
+        width: 10rem;
+    }
+
+    .textocarta {
+        text-align: center;
+    }
 }
-.imginicio:hover{
-  border: solid 3px rgb(218, 218, 255);
-  border-radius: 100%;
-  transform: scale(1.1rem);
-}
 
-.iconexperience{
-    width: 40px;
+/*Teléfono orientación horizontal*/
+@media (max-width: 576px) and (orientation:landscape) {
+    body{background: black;}
+    
 }
 
 
 
 
-
-@media (max-width: 600px) {
-/*seccion 1 */
-  .row, .row-cols-2{
-    display: grid;
-    grid-template-columns: 
-    repeat( auto-fit 
-    minmax(50px, 1fr)
-    );
-    gap: 2px;
-  }
-
-  .imagenseccion1{
-    width: 10000vw;
-    height: auto;
-    padding-top: 50px;
-    transform: translateX(130px);
-  }
-  .textoseccion1{
-    padding-top: 10px;
-    transform: translateX(130px);
-  }  
-
-  /*seccion 2 */
-
-  .texto-aboutme{
-    transform: translateY(-340px);
-  }
-  .imagen2{   
-    width: 100cm;
-    border-radius: 30px;
-    transform: translateY(-740px);
-    transform: translateX(100px);
-  }
-  
-  .imagenseccion2{
-    padding-top: 0px;
-    width: 300px;
-    transform: translateY(-300px);
-  }
-  
-  .card1{
-    width: 450px;
-    padding-top: 30px;
-    border-radius: 30px; 
-    border: solid 3px black; 
-    height: 200px;
-    gap: 2px;
-    transform: translateY(-300px);
-  }
-  
-  .card2{
-    width: 450px;
-    padding-top: 30px;
-    border-radius: 30px; 
-    border: solid 3px black; 
-    height: 200px;
-    transform: translateY(-300px);
-  }
-
-  .texto-sobremi{
-    transform: translateY(-300px);
-    width: 450px;
-    text-align: justify;
-  }
-  
-  /*seccion 3 */
-
-  .title-experience{
-    transform: translateY(-200px);
-  }
-
-  .card3{
-    padding-top: 40px;
-    border-radius: 30px;
-    border: solid 3px black;
-    width: 450px;
-    height: 400px;
-    transform: translateY(-200px);
-  }
-  .card4{
-    padding-top: 40px;
-    border-radius: 30px;
-    border: solid 3px black;
-    width: 450px;
-    height: 400px;
-    transform: translateY(-200px);
-  }
-
-  .article-container {
-    width: 20px;
-    transform: translateX(80px);
-    display: grid;
-   
-    flex-direction: column;
-    gap: 20px;
-    justify-content: space-around;
-  }
-  /*seccion 4 */
-
-  .title-projects{
-    transform: translateY(-90px);
-  }
-  .tarjeta {
-    margin: 10px 0; /* Ajusta el margen en pantallas pequeñas */
-  }
+.flecha {
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-80%, -20%);
 }
 
-  .icontable{
-    width: 30px;
+.cntner {
+    padding-top: 8%;
 }
-/* ICONS */
 
-.icon {
-    cursor: pointer;
-    height: 2rem;
-  }
-/* EXPERIENCE SECTION */
-
-#experience {
-    position: relative;
-  }
-  
-  .experience-details-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.titulot {
+    padding-top: 15px;
 }
-.about-containers,
-.about-details-container {
-  display: flex;
-}
-  .experience-sub-title {
-    color: rgb(85, 85, 85);
-    font-weight: 600;
-    font-size: 1.75rem;
-    margin-bottom: 2rem;
-  }
-  
-  .experience-details-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-  
-  .article-container {
-    display: flex;
-    text-align: initial;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2.5rem;
-    justify-content: space-around;
-  }
-  
-  article {
-    display: flex;
-    width: 10rem;
-    justify-content: space-around;
-    gap: 0.5rem;
-  }
-  
-  article .icon {
-    cursor: default;
-  }
-  
-  /* PROJECTS SECTION */
 
-/*estilo de imagenes dentro de las targets */  
-  .project1img {
-    padding-top: 10px;
-    border-radius: 2rem;
-    width: 90%;
-    height: 80%;
-  }
-/*estilo de botones para las targetas */
-  .botn1{
-    border-radius: 30px;
-  }
-  
-
-  /* CONTACT */
-  
-  #contact {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 70vh;
-  }
-  
-  .contact-info-upper-container {
-    display: flex;
-    justify-content: center;
-    border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
-    background: (250, 250, 250);
-    margin: 2rem auto;
-    padding: 0.5rem;
-  }
-  
-  .contact-info-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    margin: 1rem;
-  }
-  
-  .contact-info-container p {
-    font-size: larger;
-  }
-  
-  .contact-icon {
-    cursor: default;
-  }
-  
-  .email-icon {
-    height: 2.5rem;
-  }
-  
-  /* FOOTER SECTION */
-  
-  footer {
-    height: 26vh;
-    margin: 0 1rem;
-  }
-  
-  footer p {
-    text-align: center;
-  }
-
-/* Responsive styles */
-
-@media screen and (max-width: 600px) {
-
-  /* Make images full-width on phones */
-  .imagen, .imagen2, .article-container img {
-    width: 100%;
-  }
-
+.sobremi2 {
+    padding-left: 56px;
+    width: 595px;
 }
 
 
 
 
 
+.sobremi {
+    padding-top: 10%;
+}
+
+.conte button {
+    padding-top: 20px;
+    text-decoration: none;
+    border-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.bo1 {
+    border-color: black;
+    color: black;
+    border-radius: 3em;
+}
+
+.bo2 {
+    border-color: white;
+    color: white;
+    border-radius: 3em;
+}
