@@ -156,8 +156,6 @@ body {
 }
 
 
-
-
 .flecha {
     width: 50px;
     position: absolute;
@@ -172,6 +170,9 @@ body {
 
 .titulot {
     padding-top: 15px;
+}
+.titulo2{
+    padding-top: 400px;
 }
 
 .sobremi2 {
